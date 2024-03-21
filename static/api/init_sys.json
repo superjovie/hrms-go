@@ -1,0 +1,54 @@
+{
+  "homeInfo": {
+    "title": "首页",
+    "href": "/authority_render/admin_staff_manage"
+  },
+  "logoInfo": {
+    "title": "欢迎系统管理员",
+    "image": "/static/images/logo.png",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "常用功能",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "员工管理",
+          "href": "/authority_render/admin_staff_manage",
+          "icon": "fa fa-home",
+          "target": "_self"
+        },
+        {
+          "title": "休假管理",
+          "href": "",
+          "icon": "fa fa-home",
+          "target": "_self",
+          "child": [
+            {
+              "title": "休假登记",
+              "href": "/authority_render/attendance_giving_manage",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "休假历史",
+              "href": "/authority_render/attendance_history_manage",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "休假审批",
+              "href": "/authority_render/attendance_approve_manage",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

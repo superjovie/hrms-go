@@ -1,0 +1,33 @@
+{
+  "homeInfo": {
+    "title": "首页",
+    "href": "/authority_render/normal_notification_manage"
+  },
+  "logoInfo": {
+    "title": "欢迎",
+    "image": "/static/images/logo.png",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "常用功能",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "员工管理",
+          "href": "/authority_render/normal_staff_manage",
+          "icon": "fa fa-home",
+          "target": "_self"
+        },
+        {
+          "title": "休假历史",
+          "href": "/authority_render/normal_attendance_history_manage",
+          "icon": "fa fa-tachometer",
+          "target": "_self"
+        }
+      ]
+    }
+  ]
+}
